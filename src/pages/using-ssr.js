@@ -1,14 +1,8 @@
 import * as React from "react"
-
-
 import Seo from "../components/seo"
 
 const UsingSSR = () => {
-  return (
-    <div>
-    Hello from UsingSSR
-    </div>
-  )
+  return <div>Hello from UsingSSR</div>
 }
 
 export const Head = () => <Seo title="Using SSR" />

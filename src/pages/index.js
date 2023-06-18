@@ -1,12 +1,15 @@
-import * as React from "react"
-import Seo from "../components/seo"
+import React, { useEffect } from "react"
+import Home from "./Home"
 
-
-
-const IndexPage = () => (
-  <>Index</>
-)
-
-export const Head = () => <Seo title="Home" />
+const IndexPage = () => {
+  useEffect(() => {
+    document.title = "Ionut Prilipceanu - Fotograf eveniment"
+  }, [])
+  return (
+    <section>
+      <Home />
+    </section>
+  )
+}
 
 export default IndexPage
