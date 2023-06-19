@@ -50,6 +50,10 @@
   margin-left: 30px;
 }
 
+.displayNone ::before {
+  display: none;
+}
+
 @media (max-width: 992px) {
   .services .one {
     width: 96%;
