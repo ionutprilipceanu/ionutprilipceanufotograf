@@ -26,15 +26,14 @@
     "react-dom": "^18.2.0",
     "react-icons": "^4.9.0",
     "react-router-dom": "^6.13.0",
+    "webpack": "^5.87.0",
     "webpack-filter-warnings-plugin": "^1.2.1"
   },
   "devDependencies": {
     "@babel/core": "^7.22.5",
     "@babel/preset-env": "^7.22.5",
     "babel-loader": "^9.1.2",
-    "prettier": "^2.8.8",
-    "webpack": "^5.87.0",
-    "webpack-dev-server": "^4.15.1"
+    "prettier": "^2.8.8"
   },
   "keywords": [
     "gatsby"
@@ -55,10 +54,5 @@
   },
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"
-  },
-  "overrides": {
-    "react-server-dom-webpack@0.0.0-experimental-c8b778b7f-20220825": {
-      "react": "^18.2.0"
-    }
   }
 }
