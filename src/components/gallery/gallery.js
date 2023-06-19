@@ -95,7 +95,6 @@ const Gallery = () => {
               </div>
             )
           })
-          // <Loader />
         )}
       </div>
       {loadedImages.length === galleryImages.length && isLoading}
