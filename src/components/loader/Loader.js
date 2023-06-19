@@ -1,5 +1,6 @@
 import React from "react"
 // import { Triangle } from "react-loader-spinner";
+import "./Loader.css"
 
 const Loader = () => {
   return (
@@ -12,9 +13,7 @@ const Loader = () => {
     //   wrapperClassName=""
     //   visible={true}
     // />
-    <div className="fa-3x">
-      <i className="fas fa-spinner fa-pulse"></i>
-    </div>
+    <div className="fa-3x">Loading...</div>
   )
 }
 

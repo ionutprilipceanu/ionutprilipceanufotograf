@@ -1,0 +1,57 @@
+.about {
+  position: absolute;
+  margin: 13vw;
+  z-index: 999;
+}
+.about ::before {
+  margin-left: -50px;
+}
+
+.services .one {
+  width: 75%;
+  margin: 0 auto;
+  background-color: rgba(238, 238, 238, 0.25);
+}
+
+.services .one h1 {
+  padding-top: 2rem;
+  margin-bottom: 0;
+}
+
+.services ::before {
+  margin-left: -25px;
+}
+
+.portfolio ::before {
+  margin-left: 0px;
+}
+
+.contact ::before {
+  margin-left: 25px;
+}
+
+.weeding ::before {
+  margin-left: -50px;
+}
+
+.christiniazation ::before {
+  margin-left: -30px;
+}
+
+.engagement ::before {
+  margin-left: -10px;
+}
+
+.photoshoots ::before {
+  margin-left: 10px;
+}
+
+.others ::before {
+  margin-left: 30px;
+}
+
+@media (max-width: 992px) {
+  .services .one {
+    width: 96%;
+  }
+}

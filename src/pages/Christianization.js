@@ -15,9 +15,9 @@ export default function Portfolio() {
   return (
     <div>
       <Navbarmenu />
-      {/* <CostumStyle> */}
-      <Title title="Creștinare" />
-      {/* </CostumStyle> */}
+      <div className="christiniazation">
+        <Title title="Creștinare" />
+      </div>
       <Subnavbarmenu />
       <Christianization />
       <Footer />
