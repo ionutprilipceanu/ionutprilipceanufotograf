@@ -1,6 +1,6 @@
 import React from "react"
 import FormTemp from "./FormTemp"
-import "react-datepicker/dist/react-datepicker.css"
+// import "react-datepicker/dist/react-datepicker.css"
 import "./ContactForm.css"
 
 import { FaEnvelope, FaGooglePlusG, FaPhoneAlt } from "react-icons/fa"
