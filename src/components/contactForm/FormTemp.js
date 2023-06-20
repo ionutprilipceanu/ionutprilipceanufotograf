@@ -54,7 +54,7 @@ const FormTemp = () => {
           <label htmlFor="comments">Comment:</label>
           <br />
           <textarea name="comments" id="comments"></textarea>
-          <Button type="submit" variant="dark">
+          <Button type="submit" variant="dark" className="btnSend">
             Send
           </Button>
         </div>

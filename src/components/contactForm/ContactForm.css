@@ -13,7 +13,6 @@
   align-items: center;
   color: #ffffffbb;
   background-color: black;
-  width: 20rem;
   border: 1px solid black;
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
@@ -27,7 +26,6 @@
   flex-direction: column;
   align-items: center;
   background-color: #fff;
-  width: 40rem;
   border: 1px solid #fff;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
@@ -43,7 +41,7 @@
 
 .info-contact {
   padding: 1rem 0;
-  margin-left: 3rem;
+  margin-left: 6.5rem;
   background-color: #ffffffbb;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
@@ -112,17 +110,16 @@ label {
 @media (max-width: 992px) {
   .sections {
     flex-direction: column;
+    width: 75vw;
   }
 
   .container-form {
-    width: auto;
     flex-direction: column;
-    padding: 3rem;
   }
 
   .form-container {
-    margin: 0 auto;
-    padding: 0;
+    margin: 1rem 1rem 0 1rem;
+    padding: 1rem;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     border-bottom-left-radius: 0;
@@ -130,24 +127,29 @@ label {
   }
 
   .info-container {
-    margin: 0 auto;
-    padding: 0;
-    width: 40rem;
+    margin: 0 1rem 1rem 1rem;
+    padding: 1rem 0 0 0;
     border-top-left-radius: 0;
     border-top-right-radius: 0;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
+    text-align: center;
   }
 
   .info-contact {
-    padding: 1rem 0;
-    margin: auto;
+    padding: 1rem;
+    margin: 0;
+    width: 75vw;
     background-color: #ffffffbb;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
-    width: 500px;
+  }
+
+  .info-contact > ul {
+    margin: 0;
+    padding: 0;
   }
 
   .info-title {
@@ -165,6 +167,11 @@ label {
   .btn-contact {
     width: 100%;
     margin: 1.5rem auto;
+  }
+
+  .btnSend {
+    width: 100%;
+    margin: 1rem 0 0 0;
   }
 
   .info-motto {
