@@ -3,6 +3,7 @@ import CarouselImages from "..//components/carousel/Carousel"
 import Gallery from "..//components/gallery/gallery"
 import Reviews from "..//components/reviews/reviews"
 import Navbarmenu from "..//components/navbarmenu/Navbarmenu"
+import Review from "..//components/review/Review"
 import Footer from "..//components/footer/Footer"
 
 export default function Home() {
@@ -12,6 +13,7 @@ export default function Home() {
       <CarouselImages />
       <Gallery />
       <Reviews />
+      <Review />
       <Footer />
     </div>
   )

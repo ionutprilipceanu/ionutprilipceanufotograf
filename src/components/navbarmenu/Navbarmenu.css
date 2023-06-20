@@ -14,10 +14,11 @@ header {
   background-color: #333333;
 }
 
-.container {
+.containerNav {
   width: 100%;
   display: flex;
   flex-direction: row;
+  justify-content: space-evenly;
 }
 
 .is-active {

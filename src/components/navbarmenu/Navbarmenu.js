@@ -33,7 +33,7 @@ const Navbarmenu = () => {
 
   return (
     <header className="header__middle">
-      <div className="container">
+      <div className="containerNav">
         {/* Add Logo  */}
         <div className="header__middle__logo">
           <Link exact="true" activeClassName="is-active" to="/">
